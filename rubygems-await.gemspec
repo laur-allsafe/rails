@@ -3,7 +3,7 @@
 require_relative "lib/rubygems/await/version"
 
 Gem::Specification.new do |spec|
-  spec.name = "rubygems-await"
+  spec.name = "rails"
   spec.version = Rubygems::Await::VERSION
   spec.authors = ["Samuel Giddins"]
   spec.email = ["segiddins@segiddins.me"]
@@ -34,8 +34,4 @@ Gem::Specification.new do |spec|
 
   # Uncomment to register a new dependency of your gem
   spec.add_dependency "bundler", ">= 2.2"
-
-  # For more information and examples about making a new gem, check out our
-  # guide at: https://bundler.io/guides/creating_gem.html
-  spec.metadata["rubygems_mfa_required"] = "true"
 end
