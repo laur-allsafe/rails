@@ -27,6 +27,10 @@ jobs:
         with:
           bundler-cache: true
           ruby-version: ruby
+      - name: Git config
+        run: |
+          git config --global user.email "you@example.com"
+          git config --global user.name "Your Name"
       - name: Configure trusted publishing credentials
         uses: rubygems/configure-rubygems-credentials@v1.0.0
         with:
