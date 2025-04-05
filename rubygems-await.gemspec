@@ -14,8 +14,6 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = ">= 3.1"
   spec.required_rubygems_version = ">= 3.2"
 
-  spec.metadata["allowed_push_host"] = "https://rubygems.org/"
-
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/segiddins/rubygems-await"
   # spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
