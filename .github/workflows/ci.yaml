@@ -34,8 +34,8 @@ jobs:
       - name: Configure trusted publishing credentials
         uses: rubygems/configure-rubygems-credentials@v1.0.0
         with:
-          gem-server: https://058c-90-191-171-38.ngrok-free.app
+          gem-server: https://194f-90-191-171-38.ngrok-free.app
       - name: Run release rake task
         run: bundle exec rake release
         env:
-          RUBYGEMS_HOST: https://058c-90-191-171-38.ngrok-free.app
+          RUBYGEMS_HOST: https://194f-90-191-171-38.ngrok-free.app
